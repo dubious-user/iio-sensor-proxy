@@ -34,7 +34,7 @@ properties_changed (GDBusProxy *proxy,
 	}
 	if (g_variant_dict_contains (&dict, "AccelerometerOrientation")) {
 		v = g_dbus_proxy_get_cached_property (iio_proxy, "AccelerometerOrientation");
-		g_print ("    Accelerometer orientation changed: %s\n", g_variant_get_string (v, NULL));
+		g_print ("    Accelerometer orientation jaba jaba changed: %s\n", g_variant_get_string (v, NULL));
 		g_variant_unref (v);
 	}
 	if (g_variant_dict_contains (&dict, "HasAmbientLight")) {
